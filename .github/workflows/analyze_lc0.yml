@@ -1,0 +1,36 @@
+name: Analyze Chess with Lc0 in Notebook
+
+on:
+  push:
+    paths:
+      - '**/*.pgn'
+      - '**/*.ipynb'
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 🔧 Install Dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y wget unzip python3-pip
+          pip3 install --upgrade pip
+          pip3 install python-chess papermill jupyter
+
+      - name: 🧠 Download Lc0 Engine + Network
+        run: |
+          wget https://github.com/LeelaChessZero/lc0/releases/download/v0.29.0/lc0-v0.29.0-linux.tar.gz
+          tar -xzf lc0-v0.29.0-linux.tar.gz
+          mkdir -p lc0_dir
+          mv lc0-v0.29.0-linux/* lc0_dir/
+          wget -O lc0_dir/network.pb.gz https://lczero.org/api/v2/networks/download/best
+          chmod +x lc0_dir/lc0
+          ls -l lc0_dir  # Debug: zeige Inhalt
+
+      - name: 📊 Run Notebook via Papermill
+        run: |
+          papermill analyze_with_lc0.ipynb output.ipynb
