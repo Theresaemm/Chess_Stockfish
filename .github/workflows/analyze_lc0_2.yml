@@ -1,0 +1,38 @@
+name: Analyze with Lc0
+
+on:
+  push:
+    paths:
+      - '**/*.pgn'
+      - '**/*.ipynb'
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y wget unzip
+          pip install --upgrade pip
+          pip install python-chess papermill
+
+      - name: Download Lc0 engine
+        run: |
+          wget https://github.com/LeelaChessZero/lc0/releases/download/v0.29.0/lc0-v0.29.0-linux.tar.gz
+          tar -xzf lc0-v0.29.0-linux.tar.gz
+          mkdir -p lc0_dir
+          mv lc0-v0.29.0-linux/* lc0_dir/
+          chmod +x lc0_dir/lc0
+
+      - name: Download Lc0 neural network
+        run: |
+          wget -O lc0_dir/network.pb.gz https://lczero.org/api/v2/networks/download/best
+
+      - name: Run Jupyter Notebook analysis
+        run: |
+          papermill stockfish-analyse.ipynb output_lc0.ipynb
