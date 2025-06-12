@@ -1,0 +1,562 @@
+[
+  {
+    "game_nr": 1,
+    "ply": 0,
+    "move": "e3",
+    "move_quality": -16,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 1,
+    "move": "c6",
+    "move_quality": -23,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 2,
+    "move": "f4",
+    "move_quality": -65,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 3,
+    "move": "d6",
+    "move_quality": -35,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 4,
+    "move": "Nf3",
+    "move_quality": 0,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 5,
+    "move": "Nf6",
+    "move_quality": 0,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 6,
+    "move": "d3",
+    "move_quality": -33,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 7,
+    "move": "Bg4",
+    "move_quality": -55,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 8,
+    "move": "Be2",
+    "move_quality": -56,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 9,
+    "move": "Bxf3",
+    "move_quality": -30,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 10,
+    "move": "Bxf3",
+    "move_quality": 0,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 11,
+    "move": "e6",
+    "move_quality": -28,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 12,
+    "move": "O-O",
+    "move_quality": -23,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 13,
+    "move": "Nbd7",
+    "move_quality": -10,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 14,
+    "move": "Be2",
+    "move_quality": -68,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 15,
+    "move": "Nb6",
+    "move_quality": -105,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 16,
+    "move": "Nd2",
+    "move_quality": -37,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "opening",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 17,
+    "move": "d5",
+    "move_quality": 0,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 18,
+    "move": "Nf3",
+    "move_quality": -16,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 19,
+    "move": "Bc5",
+    "move_quality": -14,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 20,
+    "move": "d4",
+    "move_quality": -58,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 21,
+    "move": "Bd6",
+    "move_quality": -33,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 22,
+    "move": "c3",
+    "move_quality": -9,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 23,
+    "move": "c5",
+    "move_quality": -18,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 24,
+    "move": "Qe1",
+    "move_quality": -22,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 25,
+    "move": "cxd4",
+    "move_quality": -151,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 26,
+    "move": "cxd4",
+    "move_quality": -105,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 27,
+    "move": "Ne4",
+    "move_quality": -78,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 28,
+    "move": "a3",
+    "move_quality": -57,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 29,
+    "move": "Nc4",
+    "move_quality": -71,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 30,
+    "move": "b4",
+    "move_quality": -112,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 31,
+    "move": "O-O",
+    "move_quality": 3,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 32,
+    "move": "Bxc4",
+    "move_quality": 0,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 33,
+    "move": "dxc4",
+    "move_quality": 0,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 34,
+    "move": "Qe2",
+    "move_quality": -109,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 35,
+    "move": "Rc8",
+    "move_quality": -45,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 36,
+    "move": "Qc2",
+    "move_quality": -27,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 37,
+    "move": "f5",
+    "move_quality": 0,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 38,
+    "move": "Nd2",
+    "move_quality": 39,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 39,
+    "move": "Nf6",
+    "move_quality": 0,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "middlegame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 40,
+    "move": "Bb2",
+    "move_quality": -355,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 41,
+    "move": "b5",
+    "move_quality": -323,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 42,
+    "move": "Bc3",
+    "move_quality": -38,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 43,
+    "move": "a6",
+    "move_quality": -18,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 44,
+    "move": "h3",
+    "move_quality": -66,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 45,
+    "move": "Nd5",
+    "move_quality": 0,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 46,
+    "move": "Rfe1",
+    "move_quality": 15,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 47,
+    "move": "Qh4",
+    "move_quality": -79,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 48,
+    "move": "Nf3",
+    "move_quality": 0,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 49,
+    "move": "Qg3",
+    "move_quality": -53,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 50,
+    "move": "Qf2",
+    "move_quality": -440,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 51,
+    "move": "Qxf2+",
+    "move_quality": 0,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 52,
+    "move": "Kxf2",
+    "move_quality": 0,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 53,
+    "move": "Nxc3",
+    "move_quality": 0,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "loss"
+  },
+  {
+    "game_nr": 1,
+    "ply": 54,
+    "move": "Rac1",
+    "move_quality": -97,
+    "player": "white",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "win"
+  },
+  {
+    "game_nr": 1,
+    "ply": 55,
+    "move": "Ne4+",
+    "move_quality": 0,
+    "player": "black",
+    "elo_level": "club_player",
+    "phase": "endgame",
+    "result": "loss"
+  }
+]
